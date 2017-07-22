@@ -1,3 +1,47 @@
-table, th, td {
-    border: 1px solid black;
+th, td {
+  border: 1px solid rgb(66, 66, 66);
+}
+
+th {
+  background: rgb(191, 236, 255);
+  color: rgb(66, 66, 66);
+}
+
+td {
+  background: rgb(255, 254, 237);
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+h3 {
+  text-align: center;
+}
+
+.brands {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}
+
+.types {
+  width: 250px;
+  height: 25px;
+  text-align: center;
+}
+
+.breeds {
+  width: 250px;
+  height: 25px;
+  text-align: center;
+}
+
+.vol-price {
+  width: 750px;
+  height: 25px;
+  text-align: center;
 }
